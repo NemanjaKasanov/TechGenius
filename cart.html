@@ -1,0 +1,253 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TechGenius Cart</title>
+
+    <meta name="description" content="Buy newest devices in TechGenius! TechGenius store cart."/>
+    <meta name="keywords" content="Device, device, TechGenius, Brand, Cart, Buy, Products, cart"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" href="img/icon.ico"/>
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-2">
+                        <div class="logo">
+                            <a href="index.html" id="logoA">
+                                <!-- LOGO TEXT -->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a class="active" href="index.html">home</a></li>
+                                    <li><a href="store.html">Store</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="#">More <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="about.html">About Author</a></li>
+                                            <li><a href="#">Documentation</a></li>
+                                            <li><a href="sitemap.xml">Sitemap</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- bradcam_area  -->
+    <div class="bradcam_area bradcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3>Your Cart:</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /bradcam_area  -->
+
+    <!-- CART DISPLAY AREA -->
+    <div class="col-12 mt-5 mb-5 d-flex align-items-center justify-content-center">
+        <div class="col-lg-12 col-sm-12">
+            <div class="col-12 m-3 d-flex justify-content-around flex-wrap">
+                <div class="d-flex justify-content-end">
+                    <p class="h4 pt-3">Products in Cart:</p>
+                </div>
+                <div class="d-flex align-items-end">
+                    <div class="m-2">
+                        <p class="h4" id="sumPriceDisplay">$<span id="totalPrice">0.00</span></p>
+                    </div>
+                    <div class="m-2">
+                        <a href="#" class="genric-btn success radius" id="buyButton">Buy</a>
+                    </div>
+                    <div class="m-2">
+                        <a href="#" class="genric-btn success-border radius" id="clearCart">Clear</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex col-12">
+                <p class="h7 col-12 text-center" id="cannotBuy">Cannot buy, cart is empty.</p>
+            </div>
+            <div class="col-12 mt-5 pt-2" id="cartProducts">
+
+                <!-- DISPLAY PRODUCTS IN CART -->
+                
+                <p class="text-center h2">Your cart is empty,</p>
+                <p class="text-center h3">visit the <a href="store.html" alt="Store" class="underline">STORE</a> page to fill it up.</p>
+                <div class="col-12 mt-5">
+                    <div class="about_draw wow fadeInUp text-center" data-wow-duration=".7s" data-wow-delay=".5s">
+                        <img src="img/ilstrator_img/draw.png" alt="Cart" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- / CART DISPLAY AREA -->
+
+    <!-- productivity_area  -->
+    <div class="productivity_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-md-12 col-lg-6">
+                    <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">Shop now <br>
+                            and increase productivity</h3>
+                </div>
+                <div class="col-xl-5 col-md-12 col-lg-6">
+                    <div class="app_download wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
+                        <a href="index.html" class="text-white h1">
+                            <strong>TechGenius</strong> Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ productivity_area  -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="index.html">
+                                    <strong class="text-white">TechGenius</strong>
+                                </a>
+                            </div>
+                            <p>
+                                We strive to meet your needs. If you have any questions, feel free to ask.
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Pages
+                            </h3>
+                            <ul id="footerServices">
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                    Useful Links
+                            </h3>
+                            <ul id="footerUsefulLinks">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cartFunctionality.js"></script>
+
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>

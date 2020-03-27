@@ -1,0 +1,563 @@
+[
+    {
+        "id": 1,
+        "image": {
+            "url": "galaxyS10e.jpg",
+            "alt": "Samsung Galaxy S10e"
+        },
+        "brandName": "Samsung",
+        "model": "Galaxy S10e",
+        "date": "2020/02/25",
+        "rank": 0,
+        "price": 599.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "16MP + 12MP / 10MP"
+            },
+            {
+                "name": "Screen",
+                "value": "5,8''"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": {
+            "url": "MiNote10.jpg",
+            "alt": "Xiaomi Mi Note 10"
+        },
+        "brandName": "Xiaomi",
+        "model": "Mi Note 10",
+        "date": "2020/2/26",
+        "rank": 1,
+        "price": 749.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "108 MP / 32 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,47''"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "5260mAh"
+            },
+            {
+                "name": "Processor",
+                "value": "Snapdragon 730G"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": {
+            "url": "galaxyS10.png",
+            "alt": "Samsung Galaxy S10"
+        },
+        "brandName": "Samsung",
+        "model": "Galaxy S10",
+        "date": "2020/01/20",
+        "rank": 0,
+        "price": 799.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "16MP + 12MP + 12MP / 10MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,1''"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3400mAh"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": {
+            "url": "galaxyS10+.jpg",
+            "alt": "Samsung Galaxy S10+"
+        },
+        "brandName": "Samsung",
+        "model": "Galaxy S10+",
+        "date": "2020/03/01",
+        "rank": 1,
+        "price": 999.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "16MP + 12MP + 12MP / 10MP + 8MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,4''"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "4100mAh"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "image": {
+            "url": "Iphone11Pro.jpg",
+            "alt": "Iphone 11 Pro"
+        },
+        "brandName": "Apple",
+        "model": "Iphone 11 Pro",
+        "date": "2020/03/01",
+        "rank": 1,
+        "price": 1799.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "12 MP + 12 MP + 12 MP / 12 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "5,8''"
+            },
+            {
+                "name": "Operation System",
+                "value": "iOS 13"
+            },
+            {
+                "name": "Internal memory",
+                "value": "256GB"
+            },
+            {
+                "name": "Resolution",
+                "value": "2436 x 1125 px"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": {
+            "url": "xiaomiMI9.jpg",
+            "alt": "Mi 9 SE"
+        },
+        "brandName": "Xiaomi",
+        "model": "Mi 9 SE",
+        "date": "2020/01/11",
+        "rank": 0,
+        "price": 349.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "48MP + 8MP + 13MP / 20MP"
+            },
+            {
+                "name": "Screen",
+                "value": "5,97''"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "64GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3070mAh"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": {
+            "url": "galaxyA70.jpg",
+            "alt": "Galaxy A70"
+        },
+        "brandName": "Samsung",
+        "model": "Galaxy A70",
+        "date": "2020/02/20",
+        "rank": 0,
+        "price": 449.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "32MP + 5MP + 8MP / 32MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,7''"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "4500mAh"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": {
+            "url": "20lite.jpg",
+            "alt": "Huawei 20 lite"
+        },
+        "brandName": "Huawei",
+        "model": "20 lite",
+        "date": "2019/09/23",
+        "rank": 0,
+        "price": 229.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "24MP + 8MP + 2MP / 38MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,21''"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3400mAh"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": {
+            "url": "P30.png",
+            "alt": "Huawei P30"
+        },
+        "brandName": "Huawei",
+        "model": "P30",
+        "date": "2020/02/20",
+        "rank": 1,
+        "price": 799.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "40MP + 16MP + 8MP / 32MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,1''"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3550mAh"
+            },
+            {
+                "name": "Processor",
+                "value": "Kirin 980 CPU Octa-core"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": {
+            "url": "honor7S.jpg",
+            "alt": "Huawei Honor 7S"
+        },
+        "brandName": "Huawei",
+        "model": "Honor 7S",
+        "date": "2019/06/14",
+        "rank": 0,
+        "price": 99.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "13 MP / 5 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "5,45''"
+            },
+            {
+                "name": "RAM",
+                "value": "2GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "16GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3020mAh"
+            },
+            {
+                "name": "Processor",
+                "value": "Quad-Core 1.5 GHz"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": {
+            "url": "P30lite.jpg",
+            "alt": "Huawei P30 lite"
+        },
+        "brandName": "Huawei",
+        "model": "P30 lite",
+        "date": "2019/10/17",
+        "rank": 0,
+        "price": 329.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "13 MP / 5 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,15''"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3340mAh"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": {
+            "url": "MiA3.jpg",
+            "alt": "Xiaomi Mi A3"
+        },
+        "brandName": "Xiaomi",
+        "model": "Mi A3",
+        "date": "2019/12/11",
+        "rank": 0,
+        "price": 279.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "13 MP / 5 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,1''"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "64GB"
+            },
+            {
+                "name": "Battery",
+                "value": "4030mAh"
+            },
+            {
+                "name": "Processor",
+                "value": "Snapdragon 665"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "image": {
+            "url": "GalaxyA30s.jpg",
+            "alt": "Samsung A30s"
+        },
+        "brandName": "Samsung",
+        "model": "A30s",
+        "date": "2019/9/23",
+        "rank": 0,
+        "price": 289.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "25 MP + 8 MP + 5 MP / 16 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,4''"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "64GB"
+            },
+            {
+                "name": "Battery",
+                "value": "4000mAh"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "image": {
+            "url": "Mi9TPro.jpg",
+            "alt": "Xiaomi Mi 9T Pro"
+        },
+        "brandName": "Xiaomi",
+        "model": "Mi 9T Pro",
+        "date": "2020/01/30",
+        "rank": 0,
+        "price": 639.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "48 MP + 8 MP + 13 MP / 20 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,39''"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "4000mAh"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "image": {
+            "url": "Nokia7_2.jpg",
+            "alt": "Nokia 7.2"
+        },
+        "brandName": "Nokia",
+        "model": "7.2''",
+        "date": "2019/08/04",
+        "rank": 1,
+        "price": 449.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "48 MP + 5 MP + 8 MP / 20 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,3''"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "128GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3500mAh"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "image": {
+            "url": "Nokia6_2.jpg",
+            "alt": "Nokia 6.2"
+        },
+        "brandName": "Nokia",
+        "model": "6.2",
+        "date": "2019/05/09",
+        "rank": 0,
+        "price": 299.99,
+        "char": [
+            {
+                "name": "Camera",
+                "value": "16 MP + 5 MP + 8 MP / 8 MP"
+            },
+            {
+                "name": "Screen",
+                "value": "6,3''"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Internal memory",
+                "value": "64GB"
+            },
+            {
+                "name": "Battery",
+                "value": "3500mAh"
+            }
+        ]
+    }
+
+
+    
+
+
+]

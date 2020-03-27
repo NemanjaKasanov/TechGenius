@@ -1,0 +1,289 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TechGenius</title>
+
+    <meta name="description" content="Checkout page."/>
+    <meta name="keywords" content="price, cost, Checkout, Orther, TechGenius, Purchase"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" href="img/icon.ico"/>
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-2">
+                        <div class="logo">
+                            <a href="index.html" id="logoA">
+                                <!-- LOGO TEXT -->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a class="active" href="index.html">home</a></li>
+                                    <li><a href="store.html">Store</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="#">More <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="about.html">About Author</a></li>
+                                            <li><a href="#">Documentation</a></li>
+                                            <li><a href="sitemap.xml">Sitemap</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- bradcam_area  -->
+    <div class="bradcam_area bradcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3 id="pageNameBig">Purchase now:</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /bradcam_area  -->
+
+    <!-- BUY FORM AREA -->
+    <div class="col-12 mt-5 mb-5 d-flex justify-content-center">
+        <div class="col-lg-5 col-sm-11" id="formDisplay">
+            <p class="h6 mb-3 text-secondary">Checkout:</p>
+            <p class="h4">Total price:</p>
+            <p class="h1">$<span id="price">0.00</span></p>
+
+            <form action="#" method="GET" class="col-12 mt-3 mb-3">
+                <p class="mt-5">Enter your information:</p>
+                <div class="form-group">
+                    <label for="nameLastname">Name and Last Name:</label>
+                    <input class="form-control" type="text" placeholder="Enter Your Full Name" id="nameLastname">
+                    <small id="nameHelpRed" class="form-text text-muted redText">Enter your name in format: First Last</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address:</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <small id="emailHelpRed" class="form-text text-muted redText">Please enter an email in a valid format.</small>
+                </div>
+                <p class="mt-5">Shipping address:</p>
+                <div class="form-group">
+                    <label for="address">Shipping address:</label>
+                    <input class="form-control" type="text" placeholder="Address" id="address">
+                    <small id="addressHelpRed" class="form-text text-muted redText">Enter address in a valid format(example: Street Name 58).</small>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="col-lg-6 col-sm-12 mb-2">
+                        <input type="text" class="form-control" placeholder="City" id="city"/>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-2">
+                        <input type="text" class="form-control" placeholder="State" id="state"/>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <input type="text" class="form-control" placeholder="Postal code" id="zip">
+                    </div>
+                    <div class="col-12">
+                        <small id="cityHelpRed" class="form-text text-muted redText">Enter city in a valid format.</small>
+                        <small id="stateHelpRed" class="form-text text-muted redText">Enter state in a valid format.</small>
+                        <small id="zipHelpRed" class="form-text text-muted redText">Enter postal code in a valid format (5 digits).</small>
+                    </div>
+                </div>
+                <p class="mt-5">Payment Method:</p>
+                <div class="col-12 mb-5">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio" id="radio1" value="PayPalPaymentRadio">
+                        <label class="form-check-label" for="radio1">
+                            PayPal
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio" id="radio2" value="VisaPaymentRadio">
+                        <label class="form-check-label" for="radio2">
+                            Visa Credit Card
+                        </label>
+                    </div>
+                    <div class="form-group mt-4" id="paypalPaymentWin">
+                        <label for="paypalPayment">PayPal Email Adress:</label>
+                        <input type="email" class="form-control" id="paypalPayment" aria-describedby="emailHelp" placeholder="Enter Your PayPal Email">
+                        <small id="PaypalEmailHelp" class="form-text text-muted">Insert your PayPal email adress.</small>
+                        <small id="paypalHelpRed" class="form-text text-muted redText">Please enter an email in a valid format.</small>
+                    </div>
+                    <div class="form-group mt-4" id="visaPaymentWin">
+                        <label for="visaPayment">Visa Card Number:</label>
+                        <input type="text" class="form-control" id="visaPayment" aria-describedby="emailHelp" placeholder="Enter Your Card Number">
+                        <small id="visaPaymentHelp" class="form-text text-muted">Insert your card number.</small>
+                        <small id="visaPaymentRed" class="form-text text-muted">This number contains 16 digits.</small>
+                    </div>
+                </div>
+                <a href="#" class="genric-btn success radius" id="btnSubmit">Order Now</a>
+                <p class="h6 mt-2 text-danger" id="underButtonPopup">Fill in the form correctly to proceed.</p>
+            </form>
+        </div>
+    </div>
+    <!-- / BUY FORM AREA -->
+
+    <!-- productivity_area  -->
+    <div class="productivity_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-md-12 col-lg-6">
+                    <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">Shop now <br>
+                            and increase productivity</h3>
+                </div>
+                <div class="col-xl-5 col-md-12 col-lg-6">
+                    <div class="app_download wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
+                        <a href="index.html" class="text-white h1">
+                            <strong>TechGenius</strong> Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ productivity_area  -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="index.html">
+                                    <strong class="text-white">TechGenius</strong>
+                                </a>
+                            </div>
+                            <p>
+                                We strive to meet your needs. If you have any questions, feel free to ask.
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Pages
+                            </h3>
+                            <ul id="footerServices">
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                    Useful Links
+                            </h3>
+                            <ul id="footerUsefulLinks">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/buyFunctionality.js"></script>
+</body>
+
+</html>
