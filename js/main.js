@@ -464,11 +464,15 @@ footerUsefulLinks = [
         text: "About Author"
     },
     {
-        url: "",
+        url: "documentation.pdf",
         text: "Documentation"
     },
     {
         url: "sitemap.xml",
         text: "Sitemap"
+    },
+    {
+        url: "https://github.com/NemanjaKasanov/TechGenius",
+        text: "GitHub"
     }
 ];
